@@ -1,0 +1,363 @@
+@import "bootstrap-5.3.2-dist/css/bootstrap.min.css";
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  display: inline-block;
+  color: #13547a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #13547a;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.site-header {
+  background-color: #2f5fed;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.site-header .container {
+  height: 100%;
+}
+
+/*---------------------------------------
+  NAVIGATION              
+-----------------------------------------*/
+.navbar {
+  background-color: #2f5fed;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.navbar .container {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+blockquote {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 40px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: #fff;
+  background-color: #132043;
+  width: 90%;
+}
+
+.newsletter-image {
+  border-radius: 20px;
+}
+
+.btn-add-new {
+  padding: 8px 15px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 15px;
+  border: 2px solid grey;
+}
+
+.custom-rounded {
+  border-bottom-right-radius: 100px;
+}
+
+.card-details {
+  background-color: #1d1348;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-add-active {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid grey;
+  background-color: #80d0c7;
+}
+
+.expiry {
+  margin-top: 15px;
+  margin-right: 80px;
+}
+
+.buy-now,
+.buy-now:focus {
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+.custom-margin {
+  margin-top: 140px;
+}
+
+.img-logo {
+  margin-left: 20px;
+  width: 70px;
+}
+
+.img-logo-mastercard {
+  margin-top: 5px;
+  width: 40px;
+}
+
+.site-footer {
+  background-color: #132043;
+  color: #fff;
+}
+
+.account-section {
+  margin-left: 210px;
+}
+
+.slide-header {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 99vw 0 0;
+  border-color: #2f5fed transparent;
+}
+
+.slide-footer {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100vw 0 0;
+  border-color: transparent #132043;
+  margin-left: -15.5px;
+}
+
+.slide-section {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 99vw 0 0;
+  border-color: #EEEEEE transparent;
+}
+
+.box p {
+  font-size: 25px;
+  color: #132043 bold;
+}
+
+.image-box {
+  position: absolute;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  color: #132043;
+}
+
+.image-box hr {
+  width: 90%;
+  color: yellow;
+}
+
+.app-badge {
+  height: 4rem;
+}
+
+h2 {
+  color: #132043;
+}
+
+.awesome-projects {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #132043;
+  font-weight: bold;
+}
+
+.yellow-hr {
+  border: none;
+  border-top: 3px solid yellow;
+  width: 70%;
+}
+
+div h4 {
+  color: #132043;
+  font-weight: bold;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.up-down-image {
+  background-color: #EEEEEE;
+}
+
+.award-btn {
+  text-align: left;
+}
+
+.odd-div {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 150px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.even-div {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 50px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.odd-div img,
+.even-div img {
+  width: 90px;
+}
+
+.col > .odd-div:hover, .col > .even-div:hover {
+  transform: scale(1.2);
+}
+
+/* Reset styles on mouse out */
+.col > .odd-div:hover img, .col > .even-div:hover img {
+  transform: scale(1);
+}
+
+.accordion-button:after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>');
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16"><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>');
+}
+
+.connect-4-img .card {
+  border-radius: 20px;
+}
+
+.connect-4-img img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.company_01 {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.skills .container {
+  border-radius: 20px;
+}
+
+.skills .progress {
+  height: 60px;
+  width: 90%;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  margin: 0 0 6px 0;
+  display: block;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+  height: 3px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 3px;
+  transition: 0.9s;
+  background-color: yellow;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 45%;
+  left: 100%;
+  transform: translateX(-70%);
+  z-index: 1;
+  height: 75%;
+}
+
+.overlay-image button {
+  position: absolute;
+  bottom: 1000px;
+  right: 10px;
+}
+
+/* Media query for screens between 768px and 992px (md screens) */
+@media (max-width: 768px) {
+  .site-header {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .custom-margin {
+    margin-top: 80px;
+  }
+  .slide-footer {
+    margin-left: 0px;
+  }
+}
+/* Media query for screens smaller than 768px (sm and xs screens) */
+@media (max-width: 768px) {
+  .col-lg-5 {
+    text-align: center;
+  }
+  .col-lg-4 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .custom-margin {
+    margin-top: 30px;
+  }
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+  .col {
+    width: 100%;
+    margin: 10px 0; /* Add space between columns */
+  }
+  .odd-div,
+  .even-div {
+    margin: 10px auto; /* Center the divs within the columns */
+  }
+  .odd-div img,
+  .even-div img {
+    width: 90px;
+  }
+  .col > .odd-div:hover, .col > .even-div:hover {
+    transform: scale(1.2);
+  }
+  /* Reset styles on mouse out */
+  .col > .odd-div:hover img, .col > .even-div:hover img {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=styles.css.map */
